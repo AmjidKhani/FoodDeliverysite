@@ -1,0 +1,149 @@
+/* navbar */
+#nav{
+    flex-direction: column;
+}
+#navdiv{
+    display: block;
+
+    margin: auto
+}
+#navdiv img{
+    height: 47px;
+    width: 43px;
+}
+#nav ul {
+    display: flex;
+    margin: 0px;
+    
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+#nav ul li a {
+    font-size: 10px;
+    color: aliceblue;
+    border-radius: 28px;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+#nav::before {
+   
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 86px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+    left: 0px;
+}
+
+/* Home section */
+#section {
+    margin: 10px 0px 0px 0px;
+    color: rgb(252, 251, 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 229px;
+    width: 100vw;
+}
+section::before {
+   
+    height: 303px;
+    width: 100%;
+    
+}
+#nav ul li a:hover{
+    color: rgb(15, 14, 14);
+    background-color: rgb(245, 13, 13);
+    
+    /* border: 2px solid red; */
+
+  
+    
+}
+.h-secondry-center {
+    text-align: center;
+    font-size: 15px;
+}
+.h-primary-center {
+    text-align: center;
+    font-size: 20px;
+    margin: 17px 0px 5px 0px;
+}
+.btn-primary {
+    font-size: 10px;
+    padding: 5px;
+  
+    border: 1.5px solid rgb(247, 245, 245);
+    border-radius: 6px;
+    background-color: rgb(134, 79, 79);
+    width: 70px;
+    color: white;
+}
+.h-primary {
+    font-size: 20px;
+
+    padding: 5px;
+    margin: 45px 0px 0px 0px;
+}
+.p-primary {
+    
+    
+    text-align: center;
+}
+/* .services-container{
+ padding-top: 10px;   
+} */
+/* Our Services */
+#services {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+/* Our Clients */
+.clientheading {
+    padding: 5px;
+    margin: 5px 0px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#clients {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+#clients img {
+    margin: 5px 20px;
+    width: 50px;
+    height: 100px;
+}
+
+/* Contact Us */
+
+
+/* Footer */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
